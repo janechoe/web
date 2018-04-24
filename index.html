@@ -2,13 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width:540px)" href="styles/mobile.css" >
+    <!-- Media query for medium browser width -->
+    <link rel ="stylesheet" media="only screen and (min-width:541px) and (max-width:960px)" href="styles/tablet.css">
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media = "only screen and (min-width:961px)" href="styles/desktop.css">
+    <!-- Prevent smartphones from scaling down -->
+    <meta name="viewport" content="initial-scale=1">
     <title> Jane Choe</title>
-    <style>
-    body{
-    }
-    </style>
   </head>
+  <script src="scripts/jquery-3.1.1.min.js"></script>
+
   <body>
-    <h1 title="name"> Jane Choe</h1>
+    <div class="container">
+      <img src= "homepage.jpg" alt="cover" class="image">
+      <div class="middle">
+        <div class="btn">
+          HOME
+        </div>
+      </div>
+
+    </div>
+
   </body>
+
 </html>
