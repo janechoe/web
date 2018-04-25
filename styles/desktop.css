@@ -1,8 +1,14 @@
 @import "tablet.css";
+.btn{
+  background-color: #C3ACCE;
+  color: white;
+  font-size: 19px;
+  padding: 16px 20px;
+}
 .middle{
   transition: 4s ease;
   opacity: 0;
-  top: 50%;
+  top: 60%;
   left: 50%;
   position: absolute;
   transform: translate (-50%, -50%);
