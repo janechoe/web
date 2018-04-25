@@ -9,11 +9,11 @@ body{
   max-width: 75%;
   height: auto;
   opacity:1;
-  transition: 3s ease;
+  transition: 4s ease;
   backface-visibility: hidden;
 }
 .middle{
-  transition: 3s ease;
+  transition: 4s ease;
   opacity: 0;
   top: 20%;
   left: 50%;

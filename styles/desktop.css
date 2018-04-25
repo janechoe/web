@@ -1,1 +1,9 @@
 @import "tablet.css";
+.middle{
+  transition: 4s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate (-50%, -50%);
+}
