@@ -1,4 +1,8 @@
 @import "tablet.css";
 img{
   margin: 20px;
+  border: 5px solid #538083;
+}
+.whiteblock{
+  border: 8px solid #c3acce;
 }
