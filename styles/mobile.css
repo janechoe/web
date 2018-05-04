@@ -16,4 +16,6 @@ img{
 }
 p{
   display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: .8em;
 }
