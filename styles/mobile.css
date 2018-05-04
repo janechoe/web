@@ -1,18 +1,19 @@
 body{
   background-color: #dfd9e2;
 }
-
 .whiteblock{
   width: 85%;
+  display: table;
   background-color: white;
   margin: auto;
   border: 3px solid #c3acce;
 }
 img{
   width: 50%;
+  float: left;
   margin: 5px;
   border: 2px solid #538083;
 }
 p{
-  display: inline-block;
+  display: block;
 }
