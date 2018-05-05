@@ -25,7 +25,7 @@ img{
 }
 #intro{
   font-size: 2.5vw;
-  margin: 2px 8px 2px 8px;
+  margin: 0px 8px 2px 8px;
   width: auto;
           /*top right bottom left*/
 }
@@ -40,22 +40,40 @@ li{
   margin-top: 2px;
   width: auto;
 }
-.portfolio, .contact{
-  clear: both;
-  margin: 2px 8px 2px 8px;
-  color: #2a7f62;
-  font-weight: bold;
-  font-size: 2.2vw;
-}
 a:link{
-  color: #538083
+  color: #538083;
+  text-decoration: none;
 }
 a:visited{
   color: #538083;
+  text-decoration: none;
 }
 a:hover{
-  color: #538083;
+  color: #2a7f62;
+  text-decoration: none;
 }
 a:active{
   color: #538083;
+  text-decoration: none;
+}
+.panel{
+  margin: 2px 8px 2px 8px;
+  font-weight: bold;
+  font-size: 2.2vw;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion {
+  clear: both;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.tab{
+  clear: both;
 }

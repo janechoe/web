@@ -31,19 +31,38 @@
               <li> - Piano (currently practicing "Love Me" by Yiruma)</li>
             </ul>
         </p>
-      </div>
-      <div class = "portfolio" >
-        <a href="#">+</a>
-        Portfolio
-      </div>
-      <div class = "contact" >
-        <a href="#">+</a>
-        Contact Me
+      </div> <!-- introduction -->
+      <div id = "portfolio" class = "tab">
+        <button class = "accordion" >Portfolio</button>
+          <div class = "panel">
+            <p>
+              yesyesyes
+            </p>
+          </div>
       </div>
 
 
-    </div>
 
+
+
+
+    </div> <!-- whiteblock-->
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
   </body>
 
 </html>
