@@ -7,16 +7,16 @@ img{
   border: 6px solid #c3acce;
 }
 #title{
-  font-size: 1.3em;
   letter-spacing: 2px;
 }
 #intro{
-  font-size: 1em;
-  margin: 15px;
+  margin: 5px 15px 5px 15px;
 }
 #hobbies{
-  font-size: .8em;
 }
 li{
   margin-top: 5px;
+}
+.portfolio, .contact {
+  margin-left: 10px;
 }
