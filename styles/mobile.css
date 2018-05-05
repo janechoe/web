@@ -39,3 +39,11 @@ p{
 li{
   margin-top: 2px;
 }
+.portfolio{
+  clear: both;
+  margin: 2px 8px 2px 8px;
+}
+.contact{
+  clear: both;
+  margin: 2px 8px 2px 8px;
+}
