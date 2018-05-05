@@ -1,5 +1,6 @@
 body{
   background-color: #dfd9e2;
+  font-family: 'Playfair Display', serif;
 }
 .whiteblock{
   width: 85%;
@@ -13,9 +14,6 @@ img{
   float: left;
   margin: -1px 5px 5px 5px;
   border: 2px solid #538083;
-}
-p{
-  font-family: 'Playfair Display', serif;
 }
 #title{
   font-size: .9em;
@@ -39,11 +37,9 @@ p{
 li{
   margin-top: 2px;
 }
-.portfolio{
+.portfolio, .contact{
   clear: both;
   margin: 2px 8px 2px 8px;
-}
-.contact{
-  clear: both;
-  margin: 2px 8px 2px 8px;
+  color: #2a7f62;
+  font-weight: bold;
 }
