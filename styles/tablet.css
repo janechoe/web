@@ -6,6 +6,14 @@ img{
 .whiteblock{
   border: 6px solid #c3acce;
 }
-p{
-  font-size: 1.4em;
+#title{
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+#intro{
+  font-size: 1em;
+  margin: 15px;
+}
+#hobbies{
+  font-size: .8em;
 }
