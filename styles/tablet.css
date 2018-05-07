@@ -1,10 +1,9 @@
 @import "mobile.css";
 img{
-
-  border: solid #538083;
+  border: .3em solid #538083;
 }
 .whiteblock{
-  border: 6px solid #c3acce;
+  border: .3em solid #c3acce;
 }
 #title{
 }
