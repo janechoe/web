@@ -1,6 +1,6 @@
 body{
   background-color: #dfd9e2;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', serif;
 }
 .whiteblock{
   width: 85%;
@@ -32,7 +32,6 @@ img{
 #hobbies{
   color: #89909f;
   list-style-type: none;
-  font-family: 'Playfair Display', serif;
   font-size: 1.6vw;
   margin: 2px 3px 2px 3px;
 }
