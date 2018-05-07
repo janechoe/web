@@ -36,7 +36,7 @@ img{
   margin: .1em .24em .1em .22em;
 }
 li{
-  margin-top: 2px;
+  margin-top: .6em;
   width: auto;
 }
 a:link{
@@ -63,17 +63,15 @@ a:active{
   transition: max-height 0.2s ease-out;
 }
 .accordion {
-  margin: .3em;
   clear: both;
   cursor: pointer;
   border: none;
   outline: none;
   transition: 0.4s;
-  font-size: 2.5vw;
+  font-size: 3vw;
+  color: #2a7f62;
 }
 .tab{
   clear: both;
-}
-button{
-  margin: auto;
+  margin: .2em;
 }
