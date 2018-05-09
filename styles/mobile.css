@@ -55,13 +55,6 @@ a:active{
   color: #538083;
   text-decoration: none;
 }
-.panel{
-  font-weight: bold;
-  font-size: 1vw;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.2s ease-out;
-}
 .accordion {
   clear: both;
   cursor: pointer;
@@ -71,6 +64,13 @@ a:active{
   font-size: 2.5vw;
   color: #2a7f62;
   margin-left: .2em;
+}
+.panel{
+  font-weight: bold;
+  font-size: 1vw;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
 }
 .tab{
   clear: both;
