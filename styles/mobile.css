@@ -58,8 +58,8 @@ a:active{
 .panel{
   font-weight: bold;
   font-size: 1vw;
-  max-height: 0;
   overflow: hidden;
+  max-height: 0;
   transition: max-height 0.2s ease-out;
 }
 .accordion {
