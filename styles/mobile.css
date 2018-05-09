@@ -83,5 +83,6 @@ a:active{
   color: #538083;
   float: right;
   font-size: 1.5vw;
+  border-style: none;
   border-radius: 10%;
 }
