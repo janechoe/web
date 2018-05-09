@@ -66,16 +66,22 @@ a:active{
   margin-left: .2em;
 }
 .panel{
+  margin: auto;
+  display: block;
   font-weight: bold;
-  font-size: 1vw;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+  font-size: 1.8vw;
+  margin: 1vw;
 }
 .tab{
   clear: both;
 }
-.panel{
-  font-size: 1.8vw;
-  margin: 1vw;
+#email{
+  font-weight: bold;
+  color: #538083;
+  float: right;
+  font-size: 1.5vw;
+  border-radius: 10%;
 }
