@@ -56,7 +56,6 @@ a:active{
   text-decoration: none;
 }
 .accordion {
-  margin:auto;
   clear: both;
   cursor: pointer;
   border: none;
@@ -65,6 +64,7 @@ a:active{
   font-size: 2.5vw;
   color: #2a7f62;
   margin-left: .2em;
+  margin-bottom: 1.6vw;
 }
 .panel{
   margin: auto;
@@ -88,4 +88,11 @@ a:active{
 }
 .name{
   font-weight: bold;
+  margin-left: 2em;
+}
+.details{
+  font-size: 1vw;
+  margin-left: 3em;
+  font-family: italic;
+  font-family: 'Roboto', sans-serif;
 }
