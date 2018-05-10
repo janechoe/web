@@ -70,6 +70,7 @@ a:active{
   margin: auto;
   margin-top:.1em;
   margin-left: 1em;
+  margin-bottom: .3em;
   display: block;
   font-weight: bold;
   overflow: hidden;
@@ -93,7 +94,7 @@ a:active{
   margin-left: 2em;
 }
 .details{
-  font-size: .7vw;
+  font-size: .9vw;
   margin-left: 3em;
   font-family: italic;
   font-family: 'Roboto', sans-serif;
