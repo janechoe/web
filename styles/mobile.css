@@ -68,6 +68,8 @@ a:active{
 }
 .panel{
   margin: auto;
+  margin-top:.1em;
+  margin-left: .4em;
   display: block;
   font-weight: bold;
   overflow: hidden;
@@ -95,4 +97,5 @@ a:active{
   margin-left: 3em;
   font-family: italic;
   font-family: 'Roboto', sans-serif;
+  margin-bottom: .4em;
 }
