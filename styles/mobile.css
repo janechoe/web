@@ -48,7 +48,7 @@ a:visited{
   text-decoration: none;
 }
 a:hover{
-  color: #2a7f62;
+  color: #c3acce;
   text-decoration: none;
 }
 a:active{
@@ -72,8 +72,7 @@ a:active{
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
-  font-size: 1.8vw;
-  margin: 1vw;
+  font-size: 1vw;
 }
 .tab{
   clear: both;
@@ -85,4 +84,7 @@ a:active{
   font-size: 1.5vw;
   border-style: none;
   border-radius: 10%;
+}
+.name{
+  font-weight: bold;
 }
