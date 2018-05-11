@@ -85,12 +85,12 @@ a:active{
   font-weight: bold;
   color: #538083;
   float: right;
-  font-size: 1.5vw;
+  font-size: 2vw;
   border-style: none;
   border-radius: 10%;
 }
 .name{
-  font-size: 1.9vw;
+  font-size: 2vw;
   font-weight: bold;
   margin-left: 2em;
   margin-right: 1em;
@@ -108,7 +108,7 @@ a:active{
   color: #89909f;
 }
 .jobdetails{
-  font-size: 1.7vw;
+  font-size: 1.8vw;
   margin-left: 3em;
   margin-top: .4em;
   margin-bottom: .4em;
@@ -116,7 +116,7 @@ a:active{
   color: #2a7f62;
 }
 .date{
-  font-size: 1.7vw;
+  font-size: 1.8vw;
   margin-left: 3em;
   margin-top: .4em;
   margin-bottom: .4em;
