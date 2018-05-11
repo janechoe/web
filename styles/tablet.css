@@ -14,3 +14,12 @@ li{
 .whiteblock{
   width: 85%;
 }
+.details{
+  font-size: 1.6vw;
+}
+.jobdetails{
+  font-size: 1.6vw;
+}
+.date{
+  font-size: 1.5vw;
+}
