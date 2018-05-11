@@ -32,11 +32,11 @@ img{
 #hobbies{
   color: #89909f;
   list-style-type: none;
-  font-size: 1.6vw;
+  font-size: 1.8vw;
   margin: .1em .24em .1em .22em;
 }
 li{
-  margin-top: .6em;
+  margin-top: .4em;
   width: auto;
 }
 a:link{
