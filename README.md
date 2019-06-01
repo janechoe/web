@@ -1,3 +1,3 @@
 # website
 I want it to be gorgeous
-URL: janesuperbrain.com
+URL: www.janesuperbrain.com
